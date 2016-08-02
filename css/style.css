@@ -19,6 +19,12 @@ body {
       color: #777;
       font-size: 18px;
   }
+  html, body. div{
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+}
+
 h3,
 h4 {
       margin: 10px 0 30px 0;
@@ -47,7 +53,7 @@ h4 {
   background:  #ffcc66;
 }
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {
     .navbar {
         padding: 0px;
 }
@@ -64,15 +70,24 @@ h4 {
       letter-spacing: 4px;
       opacity: 0.9;
 
+
   }
+.nav,
+.navbar-default,
+.navbar-fixed-top,
 .navbar-collapse,
+.navbar-brand,
 .navbar-header {
-  background-color: #2d2d30;
+    background-color: #2d2d30;
+    padding: 0;
+    margin: 0;
 }
 .navbar-default .navbar-toggle {
       border-color: transparent;
 }
 .navbar .navbar-brand {
+      padding-top: 13px;
+      padding-left: 10px;
       color: #d5d5d5 !important;
  }
 .nav-tabs li a {
