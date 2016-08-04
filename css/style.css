@@ -5,7 +5,7 @@
  *   Front-end News! Stylesheet
 
  *  gold            : #ffcc66;
- *  dark blue       : #000066;
+ *  dark            : #2d2d30
  *  olive           : #cc9900;
  *  grey            : #d3d3d3;
 
@@ -34,15 +34,15 @@ h4 {
   }
 .btn {
       padding: 10px 20px;
-      background-color: #333;
+      background-color: #111;
       color: #f1f1f1;
       border-radius: 0;
-      transition: .2s;
+
 }
 .btn:hover,
 .btn:focus {
       border: 1px solid #333;
-      background-color: #fff;
+      background-color: #999;
       color: #000;
 }
 .button-width {
@@ -86,6 +86,7 @@ h4 {
       border-color: transparent;
 }
 .navbar .navbar-brand {
+
       padding-top: 13px;
       padding-left: 10px;
       color: #d5d5d5 !important;
@@ -96,21 +97,24 @@ h4 {
 .navbar li a,
 .navbar-nav li a:hover {
       color: #fff !important;
+
  }
 .navbar-nav li.active a {
       color: #fff !important;
-      background-color: #29292c !important;
+      background-color: #111 !important;
   }
 
-.open .dropdown-toggle {
+
+.dropdown-toggle {
       color: #fff;
-      background-color: #555 !important;
+      background-color: #333 !important;
 }
-.dropdown-menu li a {
+.navbar-nav > li > .dropdown-menu li a {
       color: #000 !important;
+      background-color: #fff !important;
 }
-.dropdown-menu li a:hover {
-      background-color: red !important;
+.navbar-nav > li > .dropdown-menu li a:hover {
+      background-color: #555 !important;
 }
 
 
@@ -150,6 +154,7 @@ h4 {
     letter-spacing: 10px;
     font-size: 18px;
     color: #111;
+    background: #2d2d30;
 }
 .topspace {
   padding-top: 10px;
